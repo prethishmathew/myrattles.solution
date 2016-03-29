@@ -11,6 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "myrattles.web", "src\myrattles.web\myrattles.web.xproj", "{B2620201-5D97-458D-B0C7-1824CB7E80EF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3E88AE82-6554-49F4-9FEC-78A6DAE6503E} = {3E88AE82-6554-49F4-9FEC-78A6DAE6503E}
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "myrattles.Infrastructure", "src\myrattles.Infrastructure\myrattles.Infrastructure.xproj", "{3E88AE82-6554-49F4-9FEC-78A6DAE6503E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "myrattles.console", "src\myrattles.console\myrattles.console.xproj", "{6D55C4E9-C3B8-4629-AF14-54470FF5075E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "myrattles.Infrastructure.Tests", "src\myrattles.Infrastructure.Tests\myrattles.Infrastructure.Tests.xproj", "{3190935C-3577-4C58-A650-6FD63E135766}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,11 +31,26 @@ Global
 		{B2620201-5D97-458D-B0C7-1824CB7E80EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2620201-5D97-458D-B0C7-1824CB7E80EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2620201-5D97-458D-B0C7-1824CB7E80EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E88AE82-6554-49F4-9FEC-78A6DAE6503E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E88AE82-6554-49F4-9FEC-78A6DAE6503E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E88AE82-6554-49F4-9FEC-78A6DAE6503E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E88AE82-6554-49F4-9FEC-78A6DAE6503E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D55C4E9-C3B8-4629-AF14-54470FF5075E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D55C4E9-C3B8-4629-AF14-54470FF5075E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D55C4E9-C3B8-4629-AF14-54470FF5075E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D55C4E9-C3B8-4629-AF14-54470FF5075E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3190935C-3577-4C58-A650-6FD63E135766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3190935C-3577-4C58-A650-6FD63E135766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3190935C-3577-4C58-A650-6FD63E135766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3190935C-3577-4C58-A650-6FD63E135766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B2620201-5D97-458D-B0C7-1824CB7E80EF} = {C4B48C4F-21E7-4D41-AD87-F813EBEE01E1}
+		{3E88AE82-6554-49F4-9FEC-78A6DAE6503E} = {C4B48C4F-21E7-4D41-AD87-F813EBEE01E1}
+		{6D55C4E9-C3B8-4629-AF14-54470FF5075E} = {C4B48C4F-21E7-4D41-AD87-F813EBEE01E1}
+		{3190935C-3577-4C58-A650-6FD63E135766} = {C4B48C4F-21E7-4D41-AD87-F813EBEE01E1}
 	EndGlobalSection
 EndGlobal

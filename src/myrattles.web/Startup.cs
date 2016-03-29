@@ -6,6 +6,8 @@ using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Http;
 using Microsoft.Extensions.DependencyInjection;
+using myrattles.Infrastructure;
+
 
 namespace myrattles.web
 {
@@ -13,8 +15,13 @@ namespace myrattles.web
     {
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+
+            
+            var st = new AutofacDi();
+            return st.DependencyInjection(services);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
